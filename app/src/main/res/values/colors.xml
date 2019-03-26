@@ -1,0 +1,11 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="cl_ActMainFondo">#000</color>
+    <color name="cl_ActAprendizajeFondo">#F8F3F0</color>
+    <color name="cl_FondoActTitle">#00008B</color>
+    <color name="cl_TextActTitle">#DDF</color>
+    <color name="cl_TimeText">#0063CC</color>
+    <color name="cl_TextoMainConf">#727272</color>
+
+</resources>

@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="700dp"
+    android:background= "#FFFFFF"
+    android:gravity="end"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/ImageView13"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/ImageView09"
+        android:layout_below="@+id/ImageView08"
+        android:src="@drawable/calendario" />
+
+    <ImageView
+        android:id="@+id/ImageView12"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ImageView08"
+        android:layout_toLeftOf="@+id/ImageView13"
+        android:src="@drawable/bateria" />
+
+    <ImageView
+        android:id="@+id/ImageView15"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ImageView10"
+        android:layout_toRightOf="@+id/ImageView14"
+        android:src="@drawable/instagram" />
+
+    <ImageView
+        android:id="@+id/ImageView09"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/ImageView05"
+        android:layout_below="@+id/ImageView07"
+        android:src="@drawable/wifi" />
+
+    <ImageView
+        android:id="@+id/ImageView10"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ImageView05"
+        android:layout_toRightOf="@+id/ImageView05"
+        android:src="@drawable/update" />
+
+   
+
+    <ImageView
+        android:id="@+id/ImageView06"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/ImageView10"
+        android:layout_toLeftOf="@+id/ImageView07"
+        android:src="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/ImageView"
+        android:layout_toLeftOf="@+id/ImageView02"
+        android:src="@drawable/twitter" />
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView1"
+        android:layout_toRightOf="@+id/ImageView05"
+        android:src="@drawable/linkedin" />
+
+    <ImageView
+        android:id="@+id/ImageView03"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ImageView02"
+        android:src="@drawable/wasapp" />
+
+    <ImageView
+        android:id="@+id/ImageView04"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ImageView"
+        android:layout_toLeftOf="@+id/ImageView05"
+        android:src="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/ImageView05"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ImageView"
+        android:layout_toRightOf="@+id/ImageView08"
+        android:src="@drawable/sms" />
+
+    <ImageView
+        android:id="@+id/ImageView07"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/ImageView10"
+        android:layout_toRightOf="@+id/ImageView10"
+        android:src="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/ImageView08"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/ImageView15"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/googleplus" />
+
+    <ImageView
+        android:id="@+id/ImageView11"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/ImageView15"
+        android:layout_toRightOf="@+id/ImageView10"
+        android:src="@drawable/talk" />
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:src="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/ImageView14"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/ImageView15"
+        android:layout_toLeftOf="@+id/ImageView11"
+        android:src="@drawable/reloj" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/icohapp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_toRightOf="@+id/ImageView"
+        android:text="MODO APRENDIZAJE"
+        android:textColor="#000000"
+        android:textSize="@dimen/texto25" />
+   
+</RelativeLayout>

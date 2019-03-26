@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NN_HAPP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_act_parejas">Act_parejas</string>
+    <string name="title_activity_act_main">Act_main</string>
+    <string name="title_activity_">Act</string>
+    <string name="title_activity_act_config">Act_config</string>
+     <string name="img_cd">img</string>
+     <string name="config_file">config.txt</string>
+
+</resources>

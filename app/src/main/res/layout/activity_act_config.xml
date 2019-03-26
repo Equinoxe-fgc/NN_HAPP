@@ -1,0 +1,209 @@
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    tools:context=".ActConfig" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="#555555"
+            android:contentDescription="@string/img_cd" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="0"
+                android:src="@drawable/conf" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0"
+                android:text="Configuración"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cbConfMostrarTiempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/MargenConf"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0"
+                android:text="Mostrar Tiempo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cbConfMostrarMsgs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/MargenConf"
+                android:layout_weight="0"
+                android:text="Mostrar Mensajes" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cbConfDiferIconosHapt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/MargenConf"
+                android:text="Diferenciar Iconos Hápticos" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cbConfInfVisual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/MargenConf"
+                android:layout_weight="0"
+                android:text="Usar Información Visual" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cbConfInfAud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/MargenConf"
+                android:layout_weight="0"
+                android:text="Usar Información Auditiva" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:layout_weight="1"
+            android1:orientation="vertical" >
+
+            <CheckBox
+                android1:id="@+id/cbConfVibrarOnClick"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                android1:layout_marginLeft="@dimen/MargenConf"
+                android1:layout_weight="0"
+                android1:text="Vibrar al hacer click" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android1:id="@+id/radioGroup1"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content" >
+
+                <RadioButton
+                    android1:id="@+id/rbConfVerEstandar"
+                    android1:layout_width="wrap_content"
+                    android1:layout_height="wrap_content"
+                    android1:layout_marginLeft="@dimen/MargenConf"
+                    android1:text="Versión Estándar" />
+
+                <RadioButton
+                    android1:id="@+id/rbConfVerShort"
+                    android1:layout_width="wrap_content"
+                    android1:layout_height="wrap_content"
+                    android1:layout_marginLeft="@dimen/MargenConf"
+                    android1:layout_weight="0"
+                    android1:text="Versión Short" />
+
+                <RadioButton
+                    android1:id="@+id/rbConfVerDIY"
+                    android1:layout_width="wrap_content"
+                    android1:layout_height="wrap_content"
+                    android1:layout_marginLeft="@dimen/MargenConf"
+                    android1:text="Versión DIY"
+                    android1:visibility="invisible" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:layout_weight="1"
+            android1:orientation="vertical" >
+
+            <Button
+                android1:id="@+id/btnCargarConfDef"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                android1:layout_gravity="center"
+                android1:layout_marginLeft="10dp"
+                android1:layout_marginRight="10dp"
+                android1:layout_weight="0"
+                android1:text="Cargar Configuración por Defecto"
+                android1:textColor="#666" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

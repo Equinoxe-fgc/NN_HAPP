@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cl_ActMainFondo"
+    tools:context=".ActMain" >
+
+    <TextView
+        android:id="@+id/tvConfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="25dp"
+        android:text="Pulsar para configurar....."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/cl_TextoMainConf" />
+
+    <ImageView
+        android:id="@+id/imgMain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/happ" />
+
+</FrameLayout>
