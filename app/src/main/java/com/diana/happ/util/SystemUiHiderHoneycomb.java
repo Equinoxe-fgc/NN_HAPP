@@ -1,4 +1,4 @@
-package uma.diana.happ.util;
+package com.diana.happ.util;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

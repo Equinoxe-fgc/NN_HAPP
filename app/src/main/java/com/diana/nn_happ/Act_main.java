@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import uma.diana.nn_happ.R;
-import uma.diana.nn_happ.Util;
+
 
 
 /** Asociado al control que muestra el mensaje para entrar en la ventana de configuraci�n */

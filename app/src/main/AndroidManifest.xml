@@ -27,7 +27,7 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.diana.nn_happ.ActMain" />
+                android:value="com.diana.nn_happ.Act_main" />
         </activity>
         <activity
             android:name="com.diana.nn_happ.Act_main"
@@ -40,10 +40,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.diana.nn_happ.Act"
-            android:label="@string/title_activity_" >
-        </activity>
+
         <activity
             android:name="com.diana.nn_happ.Act_config"
             android:label="@string/title_activity_act_config"

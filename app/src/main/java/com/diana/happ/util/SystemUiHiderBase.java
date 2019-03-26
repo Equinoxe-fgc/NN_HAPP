@@ -1,4 +1,4 @@
-package uma.diana.happ.util;
+package com.diana.happ.util;
 
 import android.app.Activity;
 import android.view.View;

@@ -4,6 +4,7 @@ package com.diana.nn_happ;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.KeyEvent;
@@ -15,6 +16,9 @@ import android.widget.Toast;
 import com.immersion.uhl.Device;
 import com.immersion.uhl.IVTBuffer;
 import com.immersion.uhl.Launcher;
+
+import uma.diana.nn_happ.R;
+
 
 public class MainActivity extends Activity {
 	
@@ -41,34 +45,31 @@ public class MainActivity extends Activity {
 	 
 	 
 	 public boolean mensaje_tb = true;
-	 
-	 
-	 
-	 
-	   Device device;
-	   IVTBuffer ivtBuffer1 = new IVTBuffer(facebook.ivt);
-	   IVTBuffer ivtBuffer2 = new IVTBuffer(twitter.ivt);
-	   IVTBuffer ivtBuffer3 = new IVTBuffer(linkedin.ivt);
-	   IVTBuffer ivtBuffer4 = new IVTBuffer(guasapp.ivt);
-	   IVTBuffer ivtBuffer5 = new IVTBuffer(phone.ivt);
-	   IVTBuffer ivtBuffer6 = new IVTBuffer(esemese.ivt);
-	   IVTBuffer ivtBuffer7 = new IVTBuffer(email.ivt);
-	   IVTBuffer ivtBuffer8 = new IVTBuffer(line.ivt);
-	   IVTBuffer ivtBuffer9 = new IVTBuffer(googleplus.ivt);
-	   IVTBuffer ivtBuffer10 = new IVTBuffer(wifi.ivt);
-	   IVTBuffer ivtBuffer11 = new IVTBuffer(update.ivt);
-	   IVTBuffer ivtBuffer12 = new IVTBuffer(tolk.ivt);
-	   IVTBuffer ivtBuffer13 = new IVTBuffer(bateria.ivt);
-	   IVTBuffer ivtBuffer14 = new IVTBuffer(calendario.ivt);
-	   IVTBuffer ivtBuffer15 = new IVTBuffer(reloj.ivt);
-	   IVTBuffer ivtBuffer16 = new IVTBuffer(camara.ivt);
+
+    Device device;
+	   IVTBuffer ivtBuffer1 = new IVTBuffer(R.raw.facebook);
+	   IVTBuffer ivtBuffer2 = new IVTBuffer(R.raw.twitter);
+	   IVTBuffer ivtBuffer3 = new IVTBuffer(R.raw.likendin);
+	   IVTBuffer ivtBuffer4 = new IVTBuffer(R.raw.guasapp);
+	   IVTBuffer ivtBuffer5 = new IVTBuffer(R.raw.phone);
+	   IVTBuffer ivtBuffer6 = new IVTBuffer(R.raw.esemese);
+	   IVTBuffer ivtBuffer7 = new IVTBuffer(R.raw.email);
+	   IVTBuffer ivtBuffer8 = new IVTBuffer(R.raw.line);
+	   IVTBuffer ivtBuffer9 = new IVTBuffer(R.raw.googleplus);
+	   IVTBuffer ivtBuffer10 = new IVTBuffer(R.raw.wifi);
+	   IVTBuffer ivtBuffer11 = new IVTBuffer(R.raw.update);
+	   IVTBuffer ivtBuffer12 = new IVTBuffer(R.raw.tolk);
+	   IVTBuffer ivtBuffer13 = new IVTBuffer(R.raw.bateria);
+	   IVTBuffer ivtBuffer14 = new IVTBuffer(R.raw.calendario);
+	   IVTBuffer ivtBuffer15 = new IVTBuffer(R.raw.reloj);
+	   IVTBuffer ivtBuffer16 = new IVTBuffer(R.raw.camara);
 	   
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 		 Util.AM = getAssets();
 		 
 		 try{ device = Device.newDevice(getApplicationContext());
@@ -371,7 +372,6 @@ if(acciones[codigoAccion].equals("ACTION_POINTER_DOWN"))
 	    	 estado_tb = 2;
 	    	 Util.Cr.Detener();
 	    	 Util.Cr.Iniciar();
-	    	 
 	     }
 	    
 		}
@@ -1149,7 +1149,7 @@ if(acciones[codigoAccion].equals("ACTION_POINTER_DOWN"))
 			 
 			 if (Util.MostrarMensajes){
 		  		
-				 Toast b=Toast.makeText(getApplicationContext(), texto, 25);
+				 Toast b=Toast.makeText(getApplicationContext(), texto, Toast.LENGTH_LONG);
                  b.show();
 				  
 			 }
@@ -1356,7 +1356,7 @@ if(acciones[codigoAccion].equals("ACTION_POINTER_DOWN"))
 			                        }
 			                }
 			                catch(Exception e){
-			                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+			                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 			                        b.show();
 			                }
 			        }
@@ -1372,7 +1372,7 @@ if(acciones[codigoAccion].equals("ACTION_POINTER_DOWN"))
 		                               Util.PlaySound("pulsar");
 		                           }
 		                        catch(Exception e){                    
-		                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+		                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 		                            b.show();     }
 		                }};
 		                
@@ -1393,7 +1393,7 @@ if(acciones[codigoAccion].equals("ACTION_POINTER_DOWN"))
 			           		                        }
 			           		                }
 			           		                catch(Exception e){
-			           		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+			           		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 			           		                        b.show();
 			           		                }
 			           		        }
@@ -1411,7 +1411,7 @@ if(acciones[codigoAccion].equals("ACTION_POINTER_DOWN"))
 			           	                              
 			           	                           }
 			           	                        catch(Exception e){                    
-			           	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+			           	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 			           	                            b.show();     }
 			           	                }};
 

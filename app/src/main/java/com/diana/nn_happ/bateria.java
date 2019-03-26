@@ -1,5 +1,5 @@
 
-package uma.diana.nn_happ;
+package com.diana.nn_happ;
 
 /*
 	How to use:

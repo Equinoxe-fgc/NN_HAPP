@@ -19,7 +19,7 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 import uma.diana.nn_happ.R;
-import uma.diana.nn_happ.Util;
+
 
 public class Act_config extends Activity {
 	

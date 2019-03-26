@@ -14,6 +14,8 @@ import com.immersion.uhl.Device;
 import com.immersion.uhl.IVTBuffer;
 import com.immersion.uhl.Launcher;
 
+import uma.diana.nn_happ.R;
+
 public class Act_parejas extends Activity {
 	
 	
@@ -2541,7 +2543,7 @@ public class Act_parejas extends Activity {
 		                        }
 		                }
 		                catch(Exception e){
-		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 		                        b.show();
 		                }
 		        }
@@ -2556,7 +2558,7 @@ public class Act_parejas extends Activity {
 	                               Util.PlaySound("pulsar");
 	                           }
 	                        catch(Exception e){                    
-	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	                            b.show();     }
 	                }};
 
@@ -2578,7 +2580,7 @@ public class Act_parejas extends Activity {
 	           		                        }
 	           		                }
 	           		                catch(Exception e){
-	           		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	           		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	           		                        b.show();
 	           		                }
 	           		        }
@@ -2595,7 +2597,7 @@ public class Act_parejas extends Activity {
 	           	                              
 	           	                           }
 	           	                        catch(Exception e){                    
-	           	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	           	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	           	                            b.show();     }
 	           	                }};
 
@@ -2616,7 +2618,7 @@ public class Act_parejas extends Activity {
 	           		                        }
 	           		                }
 	           		                catch(Exception e){
-	           		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	           		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	           		                        b.show();
 	           		                }
 	           		        }
@@ -2635,7 +2637,7 @@ public class Act_parejas extends Activity {
 	           	                           }else{ tiempo.setTextColor(0); }
 	           	                        }
 	           	                        catch(Exception e){                    
-	           	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	           	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	           	                            b.show();     }
 	           	                }};
 
@@ -2655,7 +2657,7 @@ public class Act_parejas extends Activity {
 	           	     		                        
 	           	     		                }
 	           	     		                catch(Exception e){
-	           	     		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	           	     		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	           	     		                        b.show();
 	           	     		                }
 	           	     		        }
@@ -2671,7 +2673,7 @@ public class Act_parejas extends Activity {
 
 	           	     	                           }
 	           	     	                        catch(Exception e){                    
-	           	     	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	           	     	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	           	     	                            b.show();     }
 	           	     	                }};
 
@@ -2693,7 +2695,7 @@ public class Act_parejas extends Activity {
 	       	           	     		                        
 	       	           	     		                }
 	       	           	     		                catch(Exception e){
-	       	           	     		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	       	           	     		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	       	           	     		                        b.show();
 	       	           	     		                }
 	       	           	     		        }
@@ -2722,7 +2724,7 @@ public class Act_parejas extends Activity {
 
 	       	           	     	                           }
 	       	           	     	                        catch(Exception e){                    
-	       	           	     	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	       	           	     	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	       	           	     	                            b.show();     }
 	       	           	     	                }};
 	                
@@ -2746,7 +2748,7 @@ public class Act_parejas extends Activity {
 	    	       	           	     		                        
 	    	       	           	     		                }
 	    	       	           	     		                catch(Exception e){
-	    	       	           	     		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	    	       	           	     		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	    	       	           	     		                        b.show();
 	    	       	           	     		                }
 	    	       	           	     		        }
@@ -2810,7 +2812,7 @@ public class Act_parejas extends Activity {
 	    	       	           	     	                                
 	    	       	           	     	                           }
 	    	       	           	     	                        catch(Exception e){                    
-	    	       	           	     	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	    	       	           	     	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	    	       	           	     	                            b.show();     }
 	    	       	           	     	                }};
 	    	                
@@ -2834,7 +2836,7 @@ public class Act_parejas extends Activity {
 	    	    	       	           	     		                        
 	    	    	       	           	     		                }
 	    	    	       	           	     		                catch(Exception e){
-	    	    	       	           	     		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	    	    	       	           	     		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	    	    	       	           	     		                        b.show();
 	    	    	       	           	     		                }
 	    	    	       	           	     		        }
@@ -2869,7 +2871,7 @@ public class Act_parejas extends Activity {
 
 	    	    	       	           	     	                           }
 	    	    	       	           	     	                        catch(Exception e){                    
-	    	    	       	           	     	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	    	    	       	           	     	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	    	    	       	           	     	                            b.show();     }
 	    	    	       	           	     	                }};
 	    	    	                
@@ -2890,7 +2892,7 @@ public class Act_parejas extends Activity {
 	    			    		    		           		    			
 	    			    		    		           		                }
 	    			    		    		           		                catch(Exception e){
-	    			    		    		           		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	    			    		    		           		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	    			    		    		           		                        b.show();
 	    			    		    		           		                }
 	    			    		    		           		        }
@@ -2940,7 +2942,7 @@ public class Act_parejas extends Activity {
 	    			    		    		           	                        }*/
 	    			    		    		           	                        }
 	    			    		    		           	                        catch(Exception e){                    
-	    			    		    		           	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	    			    		    		           	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	    			    		    		           	                            b.show();     }
 	    			    		    		           	                }};
 
@@ -2960,7 +2962,7 @@ public class Act_parejas extends Activity {
 	    		    			    		    		           		    			
 	    		    			    		    		           		                }
 	    		    			    		    		           		                catch(Exception e){
-	    		    			    		    		           		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	    		    			    		    		           		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	    		    			    		    		           		                        b.show();
 	    		    			    		    		           		                }
 	    		    			    		    		           		        }
@@ -2999,7 +3001,7 @@ public class Act_parejas extends Activity {
 	    		    				    	    	       	           	     		                        
 	    		    				    	    	       	           	     		                }
 	    		    				    	    	       	           	     		                catch(Exception e){
-	    		    				    	    	       	           	     		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	    		    				    	    	       	           	     		                        Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	    		    				    	    	       	           	     		                        b.show();
 	    		    				    	    	       	           	     		                }
 	    		    				    	    	       	           	     		        }
@@ -3016,7 +3018,7 @@ public class Act_parejas extends Activity {
 
 	    		    				    	    	       	           	     	                           }
 	    		    				    	    	       	           	     	                        catch(Exception e){                    
-	    		    				    	    	       	           	     	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), 2000);
+	    		    				    	    	       	           	     	                                Toast b=Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_LONG);
 	    		    				    	    	       	           	     	                            b.show();     }
 	    		    				    	    	       	           	     	                }};
 	    		    				    	    	                

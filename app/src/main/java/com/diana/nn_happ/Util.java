@@ -1,4 +1,4 @@
-package uma.diana.nn_happ;
+package com.diana.nn_happ;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -36,6 +36,8 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
+
+import uma.diana.nn_happ.R;
 
 
 /** Se implementa esta clase para ahorrar tiempo y memoria al cargar im�genes.
